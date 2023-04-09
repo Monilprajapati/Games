@@ -1,0 +1,29 @@
+* {
+  font-family: "Permanent Marker", cursive;
+}
+
+.choiceBtn {
+  line-height: 30px;
+  width: 150px;
+}
+
+.container {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#gameDiv {
+  border: 2px solid;
+  border-radius: 10px;
+  padding: 10px;
+  background-color: lightgrey;
+  text-align: center;
+  box-shadow: 0 3px 10px gray;
+}
+#playerText {
+  color: blue;
+}
+#computerText {
+  color: red;
+}
